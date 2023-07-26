@@ -1,0 +1,116 @@
+nav{
+    display:flex;
+    margin-top: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #5d98e8;
+}
+
+
+.navP1{
+     width:80%;
+     display:flex;
+}
+
+.navP1 img{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+
+.navP2{
+    width:20%;
+    text-align: center;
+}
+
+.navP2 button{
+    width: 80%;
+    border: solid 1px #7aacee;
+    height: 60%;
+    background-color: white;
+    color: #7aabee;
+}
+
+.barraBusqueda{
+    width: 50%;
+    height: 36px;
+    background-color: whitesmoke;
+    margin: 0px 0px 5px 10px;
+    border-radius: 19px;
+}
+
+.barraBusqueda input{
+    height: 100%;
+    border: none;
+    background: whitesmoke;
+    border-radius: 50px;
+    width: 85%;
+    padding-left: 20px;
+}
+
+.barraBusqueda input:focus{
+    outline: none !important;
+    outline-offset: 0;
+}
+
+.banner{
+    
+ 
+}
+
+.banner img{
+    width: 100%;
+}
+
+.textoBanner{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    color: white;
+}
+
+.textoBanner button{
+    height: 40px;
+    background-color: #2a7ae4;
+    color: white;
+    border: none;
+}
+
+.productos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.productos div{
+    width: 15%;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.productos div img{
+    width: 95%;
+}
+
+.productos div h4{
+   margin-bottom: 5px;
+   margin-top: 0px;
+}
+
+.productos div p{
+    margin-bottom: 5px;
+ }
+
+ .tituloSeccion{
+    display: flex;
+    justify-content: space-between;
+ }
+ 
+ .tituloSeccion a{
+    padding: 20px;
+   
+ }
+
+
